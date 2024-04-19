@@ -1,0 +1,16 @@
+.scr{
+    display: flex;
+
+    background-color: #e6e6e6;
+    height: 100vh;
+
+    
+}
+.scr-1{
+    padding: 0.5rem;
+flex: 1.3;
+background-color: #ffffff;
+}
+.scr-2{
+   flex: 3; 
+}

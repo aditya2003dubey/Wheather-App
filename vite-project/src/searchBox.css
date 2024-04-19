@@ -1,0 +1,56 @@
+.input{
+    border-radius: 10rem;
+    /* border: none; */
+    border: 2px solid blueviolet;
+    background-color: beige;
+    height: 1rem;
+    /* width: 14rem; */
+    padding: 0.5rem;
+    font-size: 1rem;
+    
+    padding-left: 1.5rem;
+    width: 100%;
+    outline: 0;
+}
+.input::after{
+    border: 2px solid blue;
+    background-color: brown;
+}
+
+.btn{
+    margin: 1rem;
+    color: blueviolet;
+    font-size: 1rem;
+}
+
+.para{
+    color: aqua;
+}
+.iconn{
+    position: absolute;
+    display: flex;
+    top: 0;
+    /* left: 0; */
+right: 0;    
+    height: 100%;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+
+    text-align: end;
+
+}
+.field{
+    position: relative;
+    /* width: 100px; */
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+    margin: 0.5rem 3rem;
+
+    /* text-align: end; */
+    /* flex-direction: row-reverse; */
+
+}
